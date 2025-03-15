@@ -1,0 +1,117 @@
+<!doctype html>
+
+
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encanto de las Suculentas</title>
+  <link rel="stylesheet" href="less/main.less" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f9f5f2;
+      color: #333;
+    }
+
+    nav {
+      background-color: #4caf50;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      background: url('https://cdn.pixabay.com/photo/2020/04/04/19/33/lorem-5003574_1280.jpg') no-repeat center/cover;
+      padding: 100px 20px;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <div class="hero">
+    <h1>Descubre la Belleza de las Suculentas</h1>
+  </div>
+  <div class="container" id="galeria">
+    <h2>Nuestra Galería</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2016/07/03/01/13/a-fleshy-plant-1494116_1280.jpg" alt="Suculenta 1">
+        <p>Hermosa suculenta de colores vibrantes.</p>
+      </div>
+      <div class="card">
+        <img
+          src="https://media.istockphoto.com/id/2037890708/photo/sempervivum-succulents-also-known-as-houseleeks.jpg?s=2048x2048&w=is&k=20&c=Ap6kygMfjzmfL9m2iRby81YxVFUAiSqf4inmY-twBGc="
+          alt="Suculenta 2">
+        <p>Una opción perfecta para tu jardín.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2017/02/07/09/05/succulent-plants-2045388_1280.jpg" alt="Suculenta 3">
+        <p>Fácil de cuidar y llena de vida.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Encanto de las Suculentas | Todos los derechos reservados</p>
+  </footer>
+</body>
+
+</html>
